@@ -23,7 +23,7 @@ export const eventBus = new JSEvent()
 ```tsx
 // components/Modal.tsx
 import { useEffect, useState } from 'React'
-import { eventBus } from '../utils'
+import { eventBus } from './utils'
 
 export default function Counter(props) {
   const [count, setCount] = useState(0)
