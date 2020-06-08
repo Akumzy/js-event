@@ -1,0 +1,25 @@
+{
+  "name": "@akumzy/js-event",
+  "version": "0.0.5",
+  "main": "./lib/cjs/index.js",
+  "module": "./lib/esm/index.js",
+  "description": "A WebSocket client file upload with de-duplication",
+  "author": {
+    "email": "akumaisaacakuma@gmail.com",
+    "name": "Akuma Isaac Akuma"
+  },
+  "files": [
+    "lib/"
+  ],
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc -p ./tsconfig.json && tsc -p ./tsconfig-cjs.json",
+    "watch": "tsc -p ./tsconfig.json -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Akumzy/js-event.git"
+  },
+  "dependencies": {},
+  "homepage": "https://github.com/Akumzy/js-event"
+}
