@@ -60,3 +60,5 @@ export default function App() {
   )
 }
 ```
+
+*For Node.js apps please use Node standard event package*
