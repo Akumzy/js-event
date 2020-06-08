@@ -21,9 +21,9 @@ export const eventBus = new JSEvent()
 ```
 
 ```tsx
-// components/Modal.tsx
+// components/Counter.tsx
 import { useEffect, useState } from 'React'
-import { eventBus } from './utils'
+import { eventBus } from '../utils'
 
 export default function Counter(props) {
   const [count, setCount] = useState(0)
@@ -44,7 +44,8 @@ export default function Counter(props) {
 
 ```tsx
 // index.tsx
-import { eventBus } from '../utils'
+import { eventBus } from './utils'
+import Counter from  './components/Counter'
 
 export default function App() {
   const onClick = () => {
@@ -56,6 +57,7 @@ export default function App() {
     <div>
       <h1>React App</h1>
       <button onClick={onClick}>Counter</button>
+      <Counter/>
     </div>
   )
 }
