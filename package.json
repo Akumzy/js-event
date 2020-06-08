@@ -1,9 +1,9 @@
 {
   "name": "@akumzy/js-event",
-  "version": "0.0.5",
+  "version": "0.0.1",
   "main": "./lib/cjs/index.js",
   "module": "./lib/esm/index.js",
-  "description": "A WebSocket client file upload with de-duplication",
+  "description": "Simple js event emitter",
   "author": {
     "email": "akumaisaacakuma@gmail.com",
     "name": "Akuma Isaac Akuma"
